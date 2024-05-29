@@ -471,6 +471,10 @@
 // dowhileloop
 
 
+
+// EVENT LOOP:  jo main stack or side stack mai communication ho rhi hai ussay event loop khehte hain
+
+
 // for ( let i = 1 ; i <= 10; i++){
 //     console.log('hello Loop' , i);
 // }
@@ -1941,13 +1945,13 @@
 // forLoop
 // forIn loop
 // forOff loop
-// forEach loop
+// forEach loop return nhi krta
 
 
 // CallBAck   argument k andr jo fucntion hota hai woh call back function hota hai
 
 
-// MAP 
+// MAP  map return krta hai
 // FILTER 
 
 
@@ -1955,23 +1959,159 @@
                                           // For Each started 
 
 
-array = [`watermelon` , `guawa` , `apple` , `banana` , `grapes`];
+// array = [`watermelon` , `guawa` , `apple` , `banana` , `grapes`];
 
-array.forEach( (items) => {
-    console.log(items);
-    console.log(index[array]);
+// array.forEach( (items , index) => {
+//     console.log(items);
+//     console.log(index[array]);
     
-});
+// });
 
 
 
 
 
 
+// higher order function:    jo apne andr as an argument call back leta hai
+// reduce:  
+
+
+// const products = [
+//         {
+//             name: "Laptop",
+//             price: 999.99,
+//             description: "Powerful laptop for all your computing needs."
+//         },
+//         {
+//             name: "Headphones",
+//             price: 79.99,
+//             description: "High-quality headphones for immersive audio experience."
+//         },
+//         {
+//             name: "Smartphone",
+//             price: 699.99,
+//             description: "Advanced smartphone with cutting-edge features."
+//         },
+//         {
+//             name: "Tablet",
+//             price: 449.99,
+//             description: "Portable tablet for entertainment and productivity."
+//         },
+//         {
+//             name: "Smartwatch",
+//             price: 249.99,
+//             description: "Stay connected and track your fitness with this smartwatch."
+//         },
+//         {
+//             name: "Gaming Console",
+//             price: 399.99,
+//             description: "Experience the thrill of gaming with this powerful console."
+//         },
+//         {
+//             name: "Camera",
+//             price: 599.99,
+//             description: "Capture life's moments with stunning clarity and detail."
+//         },
+//         {
+//             name: "Wireless Speaker",
+//             price: 129.99,
+//             description: "Enjoy your favorite music wirelessly with this speaker."
+//         },
+//         {
+//             name: "External Hard Drive",
+//             price: 129.99,
+//             description: "Expand your storage and backup your files with ease."
+//         },
+//         {
+//             name: "Wireless Mouse",
+//             price: 29.99,
+//             description: "Navigate your computer with precision and comfort."
+//         },
+//         {
+//             name: "Printer",
+//             price: 199.99,
+//             description: "Print documents and photos with exceptional quality."
+//         },
+//         {
+//             name: "Desk Lamp",
+//             price: 49.99,
+//             description: "Illuminate your workspace with adjustable brightness."
+//         },
+//         {
+//             name: "Fitness Tracker",
+//             price: 79.99,
+//             description: "Monitor your health and track your workouts."
+//         },
+//         {
+//             name: "Bluetooth Earbuds",
+//             price: 99.99,
+//             description: "Wireless earbuds for on-the-go audio enjoyment."
+//         },
+//         {
+//             name: "Portable Charger",
+//             price: 39.99,
+//             description: "Charge your devices anywhere, anytime."
+//         },
+//         {
+//             name: "USB Flash Drive",
+//             price: 19.99,
+//             description: "Store and transfer your files conveniently."
+//         },
+//         {
+//             name: "Monitor",
+//             price: 299.99,
+//             description: "Upgrade your display for enhanced productivity."
+//         },
+//         {
+//             name: "Keyboard",
+//             price: 49.99,
+//             description: "Type comfortably with this reliable keyboard."
+//         },
+//         {
+//             name: "Computer Mousepad",
+//             price: 9.99,
+//             description: "Enhance your mouse precision with this smooth pad."
+//         },
+//         {
+//             name: "Graphic Tablet",
+//             price: 199.99,
+//             description: "Express your creativity with this digital drawing tablet."
+//         },
+//         {
+//             name: "Wireless Router",
+//             price: 79.99,
+//             description: "Fast and reliable internet connection for your home network."
+//         }
+//     ];
+
+
+// const sum = products.reduce((accumulator , intialvalue ) => {
+//     return accumulator = intialvalue 
+// } , products.price);
+
+// console.log(sum);
+
+
+// syncronous:   line by line code chalega
+// Asyncronous:  saare console 1 sth bhejo jis ka answer jaldii aagya woh show krwado
+
+// Asyncronous types 
+
+
+// setInterval
+// settimeout
+// promises
+// axios
+// async await
+// fetch
+
+
+// API:  (APPLICATION PROGRAMING INTERFACE)
 
 
 
+                                                   // PROMISES STARTED 
 
 
-
+                                                   
 
