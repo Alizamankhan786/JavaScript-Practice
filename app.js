@@ -2113,5 +2113,117 @@
                                                    // PROMISES STARTED 
 
 
-                                                   
+// promises: jab aajai toh console krwado
 
+//.fetch().than().catch()
+
+// .then().catch() : ziyada use kr rhy hote hain
+
+
+// .fetch(): API mai use hota hai
+
+
+// Axios : AXIOS bhi API mai use hota hai
+
+
+
+                                                    // .then().catch : METHOD STARTED
+
+
+// const bankBalance = 20000
+// const shaddi = new Promise((resolve , reject)=>{
+//     if(bankBalance > 10000){
+//         console.log(`successfull`);
+//         resolve()
+//     }else{
+//         console.log(`rejected`);
+//         reject()
+//     }
+// })
+
+
+// .then(()=>{
+//     console.log(`successfull`);
+// }).catch(()=>{
+//     console.log(`rejected`);
+// })
+
+
+
+
+// const bankBalance = 20000
+
+// const shaddi = new Promise((resolve,reject)=>{
+//     if(bankBalance > 10000){
+//         console.log(`successfull`);
+//         resolve()
+//     }else{
+//         console.log(`rejected`);
+//         reject()
+//     }
+// })
+
+// .then(()=>{
+//     console.log(`successfull`);
+// }).catch(()=>{
+//     console.log(`rejected`);
+
+// })
+
+// const bankBalance = 200000
+
+// function shaddiScenz(){
+//     return new promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             if(bankBalance > 1000){
+//                 console.log(`successfull`);
+//                 resolve(`shaddi mubarak`)
+//             }else{
+//                 console.log(`rejected`);
+//                 reject(`!shaddi mubarak`)
+//             }
+
+//         } , 1000)
+//     }) 
+// }
+
+// shaddiScenz()
+// .then((res)=>{
+//     console.log(res);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+function shaadiScnz (bankBalance){
+    return new Promise((resolve , reject)=>{
+        setTimeout(()=>{
+            if(bankBalance > 100000){
+                console.log('shaadi Mubarak...');
+                resolve('shaadi Mubarak...')
+            }else{
+                console.log('ammi na zehr kahlia...');
+                reject('!shaadi Mubarak...')
+            }
+        } , 1000)
+    })
+}
+
+shaadiScnz(200000)
+.then((res)=>{
+    console.log(res);
+})
+.catch((err)=>{
+    console.log(err);
+})
+
+
+                                  // TRY AND CATCH STARTED 
+
+
+// try {
+//     alert(`Hello World`);
+
+// } catch (error) {
+//     console.error(error);
+    
+// }
