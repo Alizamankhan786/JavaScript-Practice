@@ -2194,27 +2194,27 @@
 //     console.log(err);
 // })
 
-function shaadiScnz (bankBalance){
-    return new Promise((resolve , reject)=>{
-        setTimeout(()=>{
-            if(bankBalance > 100000){
-                console.log('shaadi Mubarak...');
-                resolve('shaadi Mubarak...')
-            }else{
-                console.log('ammi na zehr kahlia...');
-                reject('!shaadi Mubarak...')
-            }
-        } , 1000)
-    })
-}
+// function shaadiScnz (bankBalance){
+//     return new Promise((resolve , reject)=>{
+//         setTimeout(()=>{
+//             if(bankBalance > 100000){
+//                 console.log('shaadi Mubarak...');
+//                 resolve('shaadi Mubarak...')
+//             }else{
+//                 console.log('ammi na zehr kahlia...');
+//                 reject('!shaadi Mubarak...')
+//             }
+//         } , 1000)
+//     })
+// }
 
-shaadiScnz(200000)
-.then((res)=>{
-    console.log(res);
-})
-.catch((err)=>{
-    console.log(err);
-})
+// shaadiScnz(200000)
+// .then((res)=>{
+//     console.log(res);
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
 
 
                                   // TRY AND CATCH STARTED 
