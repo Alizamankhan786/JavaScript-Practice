@@ -2227,3 +2227,90 @@
 //     console.error(error);
     
 // }
+
+
+
+                                               // PROMISES 
+
+// promises ki 3 state hoti hain 
+
+// .PENDING
+// .FULLFILLED
+// .REJECTED
+
+
+
+                                            // TERNARY OPERATOR 
+
+// def: if else ka short form hai yeh ternary operator
+
+
+
+
+
+
+
+
+
+// const div = document.querySelector(`#card`);
+
+
+// axios('https://jsonplaceholder.typicode.com/todos/1')
+
+// .then((res)=>{
+//     console.log(res.data);
+//     res.data.map((item)=> {
+
+//         div.innerHTML = `
+//         <h1>${item.data}</h1>
+//         `
+//     })
+
+
+// })
+
+// .catch((error)=>{
+//     console.log(error);
+// })
+
+
+
+
+
+// const div = document.querySelector(`#card`);
+
+
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then(response => response.json())
+// .then(json => console.log(json))
+
+
+
+//     div.innerHTML = `
+
+//     <h1>${item.name}</h1>
+    
+//     `
+
+
+const div = document.querySelector(`#card`);
+
+
+axios("https://fakestoreapi.com/products")
+
+
+.then((res)=>{
+    console.log(res);
+    res.data.map((item)=>{
+        div.innerHTML += `
+        <h1>${item.name}</h1>
+        `
+    })
+})
+
+.catch((err)=>{
+    console.log(err);
+})
+
+
+
